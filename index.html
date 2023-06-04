@@ -1,76 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="stylesheets/style.css">
-<title>Curriculum Vitae</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Esta pagina contiene un Curriculum Vitae y su contenido">
+    <meta name="keywords" content="curriculum vitae, Curriculum Vitae">
+    <meta name="author" content="Mario Cueva">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Curriculum Vitae</title>
 </head>
 <header>
-<h1>Curriculum Vitae<h1>
+  <h1>Curriculum Vitae<h1>
 </header>
-<section id="education" class="experencia">
-  <h2>Experiencia Laboral<h2>
-    <table>
-       <thead>
-       <tr>
+<main>
+  <section id="personalinformation">
+    <p><span>Nombre:</span> Mario Cueva</p>
+    <p></p><span>Fecha de Nacimiento:</span> 5 de enero de 1998</p>
+    <p><span>Teléfono:</span> +593 959625693</p>
+    <p><span>Email:</span> mscueva@eespol.edu.ec</p>
+  </section>
+  <section id="experiencia" class="experiencia">
+    <h2>Experiencia Laboral</h2>
+    <table border="1" align="center">
+      <thead>
+        <tr>
           <th>Empresa</th>
           <th>Puesto</th>
           <th>Años de experiencia</th>
-       </tr>
-       </thead>
+        </tr>
+      </thead>
       <tbody>
-      <tr>
+        <tr>
           <td>Acme Corporation</td>
           <td>Desarrollador de sitios web</td>
           <td>3</td>
-      </tr>
+        </tr>
       </tbody>
     </table>   
-</section>
-<section>
-<div class="educacion">
-  <span>Educación</span>
-  <p>texto</p> 
+  </section>
+  <section id="educacion">
+   <div class="educacion">
+    <h2>Educación</h2>
+    <ol>
+      <li><span>Título Universitario:</span> Desarrollador de Aplicaciones <span>- Año: </span>2012 - 2016</li>
+      <li><span>Título Universitario:</span> Desarrollador de sitios web <span>- Año: </span>2016 - 2019</li>
+      <li><span>Título Universitario:</span> Desarrollador de aplicaciones informáticas <span>- Año: </span>2019 - 2023</li>
+    </ol>   
+   </div>
+  </section>
+  <section id="habilidades">
+    <h2>Habilidades</h2>
     <ul>
-      <li>2012 - 2016</li>
       <li>Desarrollador de Aplicaciones</li>
-      <li>2016 - 2019</li>
-      <li>Desarrollador de sitios web</li>
-      <li>2019 - 2023</li>
-      <li>Desarrollador de aplicaciones informáticas</li>
-    </ul>
-</div>
-</section>
-<section class="habilidades">
-  <span >Habilidades</span>
-  <ol>
-    <li>Desarrollador de Aplicaciones</li>
-    <li>Mantenimiento de sitios web</li>
-    <li>Desarrollador de sitios web</li>  
-   </ol>
-</section>  
-<section class="referencia">
-  <p>Referencia</p>
-  <ol>
-  <li>Acme Corporation</li>
+      <li>Mantenimiento de sitios web</li>
+      <li>Desarrollador de sitios web</li>  
+     </ul> 
+  </section>  
+  <section id="referencia">
+    <h2>Referencia</h2>
+    <ol>
+     <li>Acme Corporation</li>
     </ol>
-</section>
-<section>
-  <form>
-    <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre"><br>
-    <label for="correo">Email:</label><input type="email" id="correo" name="correo"><br>
-  </form>
-</section>
-<section>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d498.72529430787955!2d-78.48664551959378!3d-0.16209053171380608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1685555081456!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
-<nav>
-  <a href="/html/">HTML</a> 
-</nav>
+     
+  </section>
+  <section id="formulario">
+    <h2>Formulario</h2>
+    <form>
+      <label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre"><br>
+      <label for="apellido">Apellido: </label><input type="text" id="apellido" name="apellido" required ><br>
+      <label for="correo">Email: </label><input type="email" id="correo" name="correo"><br>
+      <label for="experiencia">Experiencia Laboral: </label><textarea id="experien" name="experien" rows="3" cols="30" required></textarea><br>
+      <label for="educacion">Educación: </label><textarea id="education" name="education" rows="3" cols="30" required></textarea><br>
+      <input type="submit" value="Enviar"><br><br><br>
+    </form>
+  </section>
+  <section id="mapa">
+    <div align = "center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.625620989219!2d-79.88668607008543!3d-2.191122724222746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90330fcad59be7ef%3A0x2f4b871f39b27b45!2sSoftwipe!5e0!3m2!1ses!2sec!4v1685840665934!5m2!1ses!2sec" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+</main>
 <footer>
-  
 </footer>
-
 </html>
+
+
   
     
 
