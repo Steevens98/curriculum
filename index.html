@@ -9,9 +9,22 @@
     <title>Curriculum Vitae</title>
 </head>
 <header>
-  <h1>Curriculum Vitae<h1>
+  <nav>
+    <ul>
+      <li>Formulario</li>
+      <li>Mapa</li>
+      <li>video</li>
+    </ul>
+  </nav>
+   
 </header>
 <main>
+  <section id="titulo">
+    <h1>Curriculum Vitae</h1>
+  </section>
+  <section id="imagen">
+    <center><img src="images/imagen.jpg" width="150" height="150" style="text-align: center" alt="perfil"></center>
+  </section>
   <section id="personalinformation">
     <p><span>Nombre:</span> Mario Cueva</p>
     <p></p><span>Fecha de Nacimiento:</span> 5 de enero de 1998</p>
@@ -20,6 +33,7 @@
   </section>
   <section id="experiencia" class="experiencia">
     <h2>Experiencia Laboral</h2>
+    <div align = "center">
     <table border="1" align="center">
       <thead>
         <tr>
@@ -35,7 +49,8 @@
           <td>3</td>
         </tr>
       </tbody>
-    </table>   
+    </table>
+   </div>  
   </section>
   <section id="educacion">
    <div class="educacion">
@@ -63,7 +78,8 @@
      
   </section>
   <section id="formulario">
-    <h2>Formulario</h2>
+    <center><h2>Formulario</h2></center>
+    <div align = "center">
     <form>
       <label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre"><br>
       <label for="apellido">Apellido: </label><input type="text" id="apellido" name="apellido" required ><br>
@@ -72,6 +88,7 @@
       <label for="educacion">Educación: </label><textarea id="education" name="education" rows="3" cols="30" required></textarea><br>
       <input type="submit" value="Enviar"><br><br><br>
     </form>
+  </div>
   </section>
   <section id="mapa">
     <div align = "center">

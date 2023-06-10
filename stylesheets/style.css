@@ -8,14 +8,13 @@
     --color-1: #fffffe;
     --color-2: #90b4ce;
     color: black;
-
+    padding: 0%;
+    margin: 0%;
 }
-
 
 h1 {
     font-family: 'Taviraj', serif;
     text-align: center;
-    background: linear-gradient(170deg, var(--color-2) 0%, var(--color-2) 15%, var(--color-1) 15%, var(--color-1) 100%);
 }
 
 h2 {
@@ -28,15 +27,48 @@ main{
     column-gap: 0.5rem;
     flex-wrap: wrap; 
     justify-content: space-between;
-    background: linear-gradient(170deg, var(--color-1) 0%, var(--color-1) 50%, var(--color-2) 50%, var(--color-2) 100%);
+    justify-content: center;
+    background: linear-gradient(170deg, var(--color-2) 0%, var(--color-2) 15%,var(--color-1) 15%,var(--color-1) 75%, var(--color-2) 75%, var(--color-2) 100%);  
 }
 
-head{
-    text-align: center;
+header{
+    position: sticky;
+    top: 0;
+    background-color: lightblue;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 5px;
+    background-color: aqua;
+}
+
+img{
+    border-style:solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 25px;  
+}
+
+#titulo{
+   width: 100%;
+}
+
+#imagen{
+    width: 19%;      
 }
 
 #personalinformation{
-    width: 49%;
+    width: 69%;
+    padding: 9px;
+    margin: 10px;
 }    
 
 #experiencia{
@@ -44,32 +76,21 @@ head{
 }
 
 #educacion{
-    width: 32.3%;
+    width: 50%;
 }
 
 #habilidades{
-    width: 32.3%;
+    width: 22.3%;
 }
 
 #referencia{
-    width: 32.3%;
+    width: 22.3%;
 }
+
 #formulario{
     width: 100%;
 }
 
-
 #mapa{
-    width: 100%;
-    
+    width: 100%;   
 }
-
-
-
-
-
-
-
-
-
-
